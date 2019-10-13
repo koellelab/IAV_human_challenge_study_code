@@ -1,5 +1,7 @@
 # The Dynamics of Influenza A H3N2 Defective Viral Genomes from a Human Challenge Study
+![Image of Yaktocat]
 (/figures/model_fig.png)
+
 These are a set of simple scripts designed to identify defective viral genomes (DVGs) in short read illumina data. This code was used to process samples from an influenza human challenge study (Sobel Leonard et al. 2016, Sobel Leonard et al. 2017) and track the evolutionary trajectory of DVG populations within single hosts. Raw data for this analysis is available at <sra accession>. We were lucky to have two technical sequencing replicates (designated "wexo" and "noexo" as one run included exonuclease, all other processing steps were identical) for each sample so so some of the scripts deal with reconciling results between the two replicates.
 
 There scripts include: 
